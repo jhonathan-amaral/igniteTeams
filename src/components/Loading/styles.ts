@@ -1,4 +1,4 @@
-import styled from "styled-components/native";
+import styled, { css } from "styled-components/native";
 
 export const Container = styled.View`
   flex: 1;
@@ -14,7 +14,9 @@ export const LoadIndicator = styled.ActivityIndicator.attrs(({ theme }) => ({
 `;
 
 export const Title = styled.Text`
-  color: ${({ theme }) => theme.colors.WHITE};
-  font-family: ${({ theme }) => theme.FONT_FAMILY.REGULAR};
-  font-size: ${({ theme }) => theme.FONT_SIZE.XL}px;
+  ${({ theme }) => css`
+    color: ${theme.colors.WHITE};
+    font-family: ${theme.FONT_FAMILY.REGULAR};
+    font-size: ${theme.FONT_SIZE.XL}px;
+  `}
 `;
