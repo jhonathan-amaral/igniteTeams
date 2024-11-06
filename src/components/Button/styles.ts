@@ -25,4 +25,5 @@ export const Title = styled.Text`
     color: ${theme.colors.WHITE};
     font-family: ${theme.FONT_FAMILY.BOLD};
   `}
+  text-align: center
 `;

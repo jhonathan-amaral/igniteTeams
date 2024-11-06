@@ -12,9 +12,7 @@ module.exports = (api) => {
             "@assets": "./src/assets",
             "@components": "./src/components",
             "@screens": "./src/screens",
-            "@routes": "./src/screens",
             "@utils": "./src/utils",
-
             "@storage": "./src/storage",
           },
         },
