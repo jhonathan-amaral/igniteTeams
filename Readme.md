@@ -2,6 +2,8 @@
 
 Este projeto é um aplicativo desenvolvido com Expo, voltado para o gerenciamento de turmas em competições, onde os usuários podem organizar e gerenciar dois times. A estrutura do aplicativo é bem organizada, apresentando uma variedade de componentes, telas e recursos que facilitam a interação do usuário.
 
+![Apresentação do projeto e suas funcionalidades](./src/assets/screens.gif)
+
 ## 💻 Tecnologias Utilizadas
 
 - **Expo**: Framework para desenvolvimento rápido de aplicativos móveis.
